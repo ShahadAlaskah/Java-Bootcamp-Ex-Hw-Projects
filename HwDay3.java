@@ -31,12 +31,11 @@ public class HwDay3 {
             for (int i = 2; i < num ; i++) {
                 if(num%i == 0){
                     return "Not prime number";
-                } else{
-                    return "Prime number";
-                }
+                } 
             }
+            return "Prime number";
         }
-        return "";
+       
     }
     //------------------------------------Hw2 Method
     public static double calculateTax(double price){
