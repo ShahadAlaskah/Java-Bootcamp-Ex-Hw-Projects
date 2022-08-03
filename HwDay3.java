@@ -25,8 +25,8 @@ public class HwDay3 {
     //------------------------------------Hw1 Method
     public static String isPrime(int num){
 
-        if(num == 1 || num == 2){
-            return "Prime number";
+        if(num <= 1){
+            return "Not prime number";
         }else {
             for (int i = 2; i < num ; i++) {
                 if(num%i == 0){
